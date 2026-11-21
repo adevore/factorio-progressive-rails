@@ -1,0 +1,54 @@
+{
+  "blueprint": {
+    "icons": [
+      {"signal": {"name": "storage-tank"}, "index": 1},
+      {"signal": {"type": "virtual", "name": "signal-input"}, "index": 2}
+    ],
+    "entities": [
+      {"entity_number": 1, "name": "pipe", "position": {"x": 57.5, "y": 205.5}},
+      {"entity_number": 2, "name": "medium-electric-pole", "position": {"x": 57.5, "y": 206.5}},
+      {"entity_number": 3, "name": "pump", "position": {"x": 58.5, "y": 207}},
+      {
+        "entity_number": 4,
+        "name": "storage-tank",
+        "position": {"x": 59.5, "y": 204.5},
+        "direction": 4,
+        "control_behavior": {"temperature_signal": {"type": "virtual", "name": "signal-T"}}
+      },
+      {
+        "entity_number": 5,
+        "name": "storage-tank",
+        "position": {"x": 62.5, "y": 204.5},
+        "control_behavior": {"temperature_signal": {"type": "virtual", "name": "signal-T"}}
+      },
+      {
+        "entity_number": 6,
+        "name": "decider-combinator",
+        "position": {"x": 62.5, "y": 207},
+        "direction": 8,
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [{"first_signal": {"name": "parameter-0"}, "constant": 50000, "comparator": "="}],
+            "outputs": [{"signal": {"type": "virtual", "name": "signal-check"}, "copy_count_from_input": false}],
+            "else_outputs": []
+          }
+        }
+      },
+      {"entity_number": 7, "name": "pump", "position": {"x": 63.5, "y": 207}},
+      {"entity_number": 8, "name": "medium-electric-pole", "position": {"x": 64.5, "y": 206.5}}
+    ],
+    "wires": [[2, 2, 8, 2], [2, 5, 8, 5], [4, 1, 5, 1], [4, 1, 6, 1], [6, 4, 8, 2]],
+    "parameters": [
+      {
+        "type": "id",
+        "name": "Liquid",
+        "id": "parameter-0",
+        "quality-condition": {"quality": "normal", "comparator": "="}
+      }
+    ],
+    "item": "blueprint",
+    "label": "Dropoff Liquid",
+    "version": 562954249961473
+  },
+  "index": 2
+}

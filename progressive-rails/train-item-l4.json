@@ -1,0 +1,123 @@
+{
+  "blueprint": {
+    "icons": [
+      {"signal": {"name": "locomotive"}, "index": 1},
+      {"signal": {"name": "cargo-wagon"}, "index": 2},
+      {"signal": {"type": "virtual", "name": "signal-4"}, "index": 3}
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {"x": 143, "y": 256},
+        "enable_logistics_while_moving": false,
+        "orientation": 0.5,
+        "inventory": null
+      },
+      {
+        "entity_number": 2,
+        "name": "cargo-wagon",
+        "position": {"x": 143, "y": 263},
+        "enable_logistics_while_moving": false,
+        "orientation": 0.5,
+        "inventory": null
+      },
+      {
+        "entity_number": 3,
+        "name": "cargo-wagon",
+        "position": {"x": 143, "y": 270},
+        "enable_logistics_while_moving": false,
+        "orientation": 0.5,
+        "inventory": null
+      },
+      {
+        "entity_number": 4,
+        "name": "cargo-wagon",
+        "position": {"x": 143, "y": 277},
+        "enable_logistics_while_moving": false,
+        "orientation": 0.5,
+        "inventory": null
+      },
+      {
+        "entity_number": 5,
+        "name": "locomotive",
+        "position": {"x": 143, "y": 284},
+        "enable_logistics_while_moving": false,
+        "orientation": 0.5,
+        "color": {"r": 0.949999988079071, "g": 0, "b": 0, "a": 1},
+        "items": [
+          {
+            "id": {"name": "rocket-fuel"},
+            "items": {
+              "in_inventory": [
+                {"inventory": 1, "stack": 0, "count": 19},
+                {"inventory": 1, "stack": 1, "count": 20},
+                {"inventory": 1, "stack": 2, "count": 20}
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "schedules": [
+      {
+        "locomotives": [5],
+        "schedule": {
+          "records": [
+            {
+              "station": "[item=parameter-0]Pickup",
+              "wait_conditions": [{"type": "full", "compare_type": "and"}]
+            },
+            {
+              "station": "[item=parameter-0]Dropoff",
+              "wait_conditions": [{"type": "empty", "compare_type": "and"}]
+            }
+          ],
+          "group": "[item=parameter-0]Delivery",
+          "interrupts": [
+            {
+              "name": "[item=train-stop]Depot",
+              "conditions": [
+                {
+                  "type": "fuel_item_count_all",
+                  "compare_type": "and",
+                  "condition": {"first_signal": {"name": "rocket-fuel"}, "constant": 20, "comparator": "<"}
+                },
+                {
+                  "type": "fuel_item_count_all",
+                  "compare_type": "or",
+                  "condition": {"first_signal": {"name": "nuclear-fuel"}, "constant": 1, "comparator": "="}
+                }
+              ],
+              "targets": [
+                {
+                  "station": "[item=train-stop]Depot",
+                  "wait_conditions": [{"type": "fuel_full", "compare_type": "and"}]
+                }
+              ],
+              "inside_interrupt": true
+            },
+            {
+              "name": "Shunting",
+              "conditions": [{"type": "specific_destination_full", "compare_type": "and"}],
+              "targets": [{"station": "Shunting"}],
+              "inside_interrupt": true
+            }
+          ]
+        }
+      }
+    ],
+    "stock_connections": [
+      {"stock": 5, "back": 4},
+      {"stock": 4, "front": 5, "back": 3},
+      {"stock": 3, "front": 4, "back": 2},
+      {"stock": 2, "front": 3, "back": 1},
+      {"stock": 1, "front": 2}
+    ],
+    "parameters": [{"type": "id", "id": "parameter-0", "quality-condition": {"quality": "normal", "comparator": "="}}],
+    "item": "blueprint",
+    "label": "Train Item L4",
+    "version": 562954249961473
+  },
+  "index": 9
+}

@@ -1,0 +1,10 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Upgrades",
+    "icons": [{"signal": {"name": "upgrade-planner"}, "index": 1}],
+    "active_index": 0,
+    "version": 562954249961473
+  },
+  "index": 1
+}

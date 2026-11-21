@@ -1,0 +1,11 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Tier 3 - Legendary",
+    "description": "Tier 2 Layout, Legendary components.",
+    "icons": [{"signal": {"type": "quality", "name": "legendary"}, "index": 1}],
+    "active_index": 0,
+    "version": 562954249961473
+  },
+  "index": 3
+}

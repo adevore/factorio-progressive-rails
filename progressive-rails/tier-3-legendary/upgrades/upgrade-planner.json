@@ -1,0 +1,16 @@
+{
+  "upgrade_planner": {
+    "settings": {
+      "mappers": [
+        {
+          "from": {"type": "entity", "name": "roboport", "quality": "normal", "comparator": "="},
+          "to": {"type": "entity", "name": "roboport", "quality": "legendary"},
+          "index": 0
+        }
+      ]
+    },
+    "item": "upgrade-planner",
+    "version": 562954249961473
+  },
+  "index": 0
+}

@@ -1,0 +1,322 @@
+{
+  "blueprint": {
+    "description": "From https://forums.factorio.com/viewtopic.php?p=622906#p622906",
+    "icons": [
+      {"signal": {"name": "rail-ramp"}, "index": 1},
+      {"signal": {"type": "virtual", "name": "shape-t"}, "index": 2},
+      {"signal": {"type": "virtual", "name": "signal-L"}, "index": 3},
+      {"signal": {"name": "roboport"}, "index": 4}
+    ],
+    "entities": [
+      {"entity_number": 1, "name": "straight-rail", "position": {"x": -467, "y": -543}, "direction": 4},
+      {"entity_number": 2, "name": "straight-rail", "position": {"x": -465, "y": -543}, "direction": 4},
+      {"entity_number": 3, "name": "straight-rail", "position": {"x": -463, "y": -543}, "direction": 4},
+      {"entity_number": 4, "name": "straight-rail", "position": {"x": -461, "y": -543}, "direction": 4},
+      {"entity_number": 5, "name": "rail-ramp", "position": {"x": -460, "y": -537}, "direction": 4},
+      {"entity_number": 6, "name": "straight-rail", "position": {"x": -459, "y": -543}, "direction": 4},
+      {"entity_number": 7, "name": "straight-rail", "position": {"x": -457, "y": -543}, "direction": 4},
+      {"entity_number": 8, "name": "straight-rail", "position": {"x": -455, "y": -543}, "direction": 4},
+      {"entity_number": 9, "name": "straight-rail", "position": {"x": -453, "y": -543}, "direction": 4},
+      {"entity_number": 10, "name": "big-electric-pole", "position": {"x": -453, "y": -540}},
+      {"entity_number": 11, "name": "straight-rail", "position": {"x": -451, "y": -543}, "direction": 4},
+      {
+        "entity_number": 12,
+        "name": "elevated-straight-rail",
+        "position": {"x": -451, "y": -537},
+        "direction": 4
+      },
+      {"entity_number": 13, "name": "curved-rail-a", "position": {"x": -450, "y": -543}, "direction": 4},
+      {
+        "entity_number": 14,
+        "name": "elevated-curved-rail-a",
+        "position": {"x": -450, "y": -537},
+        "direction": 4
+      },
+      {"entity_number": 15, "name": "straight-rail", "position": {"x": -449, "y": -543}, "direction": 4},
+      {
+        "entity_number": 16,
+        "name": "elevated-straight-rail",
+        "position": {"x": -449, "y": -537},
+        "direction": 4
+      },
+      {"entity_number": 17, "name": "straight-rail", "position": {"x": -447, "y": -543}, "direction": 4},
+      {"entity_number": 18, "name": "rail-support", "position": {"x": -447, "y": -538}, "direction": 3},
+      {
+        "entity_number": 19,
+        "name": "elevated-straight-rail",
+        "position": {"x": -447, "y": -537},
+        "direction": 4
+      },
+      {
+        "entity_number": 20,
+        "name": "rail-signal",
+        "position": {"x": -446.5, "y": -539.5},
+        "direction": 3,
+        "rail_layer": "elevated"
+      },
+      {"entity_number": 21, "name": "curved-rail-b", "position": {"x": -445, "y": -545}, "direction": 4},
+      {"entity_number": 22, "name": "straight-rail", "position": {"x": -445, "y": -543}, "direction": 4},
+      {
+        "entity_number": 23,
+        "name": "elevated-curved-rail-b",
+        "position": {"x": -445, "y": -539},
+        "direction": 4
+      },
+      {
+        "entity_number": 24,
+        "name": "elevated-straight-rail",
+        "position": {"x": -445, "y": -537},
+        "direction": 4
+      },
+      {
+        "entity_number": 25,
+        "name": "rail-signal",
+        "position": {"x": -444.5, "y": -544.5},
+        "direction": 11
+      },
+      {
+        "entity_number": 26,
+        "name": "rail-signal",
+        "position": {"x": -444.5, "y": -541.5},
+        "direction": 12
+      },
+      {
+        "entity_number": 27,
+        "name": "rail-signal",
+        "position": {"x": -444.5, "y": -538.5},
+        "direction": 4,
+        "rail_layer": "elevated"
+      },
+      {"entity_number": 28, "name": "straight-rail", "position": {"x": -443, "y": -543}, "direction": 4},
+      {
+        "entity_number": 29,
+        "name": "elevated-straight-rail",
+        "position": {"x": -443, "y": -537},
+        "direction": 4
+      },
+      {"entity_number": 30, "name": "straight-rail", "position": {"x": -442, "y": -548}, "direction": 2},
+      {
+        "entity_number": 31,
+        "name": "elevated-straight-rail",
+        "position": {"x": -442, "y": -542},
+        "direction": 2
+      },
+      {"entity_number": 32, "name": "straight-rail", "position": {"x": -441, "y": -543}, "direction": 4},
+      {"entity_number": 33, "name": "straight-rail", "position": {"x": -440, "y": -550}, "direction": 2},
+      {
+        "entity_number": 34,
+        "name": "elevated-straight-rail",
+        "position": {"x": -440, "y": -544},
+        "direction": 2
+      },
+      {"entity_number": 35, "name": "straight-rail", "position": {"x": -439, "y": -543}, "direction": 4},
+      {
+        "entity_number": 36,
+        "name": "elevated-straight-rail",
+        "position": {"x": -438, "y": -546},
+        "direction": 2
+      },
+      {"entity_number": 37, "name": "curved-rail-b", "position": {"x": -437, "y": -553}, "direction": 10},
+      {
+        "entity_number": 38,
+        "name": "elevated-straight-rail",
+        "position": {"x": -436, "y": -548},
+        "direction": 2
+      },
+      {"entity_number": 39, "name": "rail-signal", "position": {"x": -435.5, "y": -553.5}, "direction": 9},
+      {"entity_number": 40, "name": "straight-rail", "position": {"x": -435, "y": -575}},
+      {"entity_number": 41, "name": "straight-rail", "position": {"x": -435, "y": -573}},
+      {"entity_number": 42, "name": "straight-rail", "position": {"x": -435, "y": -571}},
+      {"entity_number": 43, "name": "straight-rail", "position": {"x": -435, "y": -569}},
+      {"entity_number": 44, "name": "straight-rail", "position": {"x": -435, "y": -567}},
+      {"entity_number": 45, "name": "straight-rail", "position": {"x": -435, "y": -565}},
+      {"entity_number": 46, "name": "straight-rail", "position": {"x": -435, "y": -563}},
+      {"entity_number": 47, "name": "straight-rail", "position": {"x": -435, "y": -561}},
+      {"entity_number": 48, "name": "curved-rail-a", "position": {"x": -435, "y": -558}, "direction": 10},
+      {"entity_number": 49, "name": "curved-rail-a", "position": {"x": -435, "y": -558}, "direction": 8},
+      {"entity_number": 50, "name": "rail-support", "position": {"x": -435, "y": -549}, "direction": 2},
+      {
+        "entity_number": 51,
+        "name": "elevated-straight-rail",
+        "position": {"x": -434, "y": -550},
+        "direction": 2
+      },
+      {"entity_number": 52, "name": "big-electric-pole", "position": {"x": -434, "y": -546}},
+      {"entity_number": 53, "name": "rail-ramp", "position": {"x": -434, "y": -537}, "direction": 12},
+      {"entity_number": 54, "name": "curved-rail-b", "position": {"x": -433, "y": -553}, "direction": 8},
+      {"entity_number": 55, "name": "rail-signal", "position": {"x": -432.5, "y": -554.5}, "direction": 7},
+      {"entity_number": 56, "name": "big-electric-pole", "position": {"x": -432, "y": -560}},
+      {
+        "entity_number": 57,
+        "name": "rail-signal",
+        "position": {"x": -431.5, "y": -554.5},
+        "direction": 1,
+        "rail_layer": "elevated"
+      },
+      {
+        "entity_number": 58,
+        "name": "elevated-curved-rail-b",
+        "position": {"x": -431, "y": -553},
+        "direction": 10
+      },
+      {
+        "entity_number": 59,
+        "name": "roboport",
+        "position": {"x": -431, "y": -547},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {"entity_number": 60, "name": "rail-ramp", "position": {"x": -430, "y": -543}, "direction": 4},
+      {"entity_number": 61, "name": "rail-ramp", "position": {"x": -429, "y": -568}, "direction": 8},
+      {
+        "entity_number": 62,
+        "name": "elevated-curved-rail-a",
+        "position": {"x": -429, "y": -558},
+        "direction": 8
+      },
+      {
+        "entity_number": 63,
+        "name": "elevated-curved-rail-a",
+        "position": {"x": -429, "y": -558},
+        "direction": 10
+      },
+      {"entity_number": 64, "name": "curved-rail-b", "position": {"x": -429, "y": -549}, "direction": 14},
+      {
+        "entity_number": 65,
+        "name": "rail-signal",
+        "position": {"x": -428.5, "y": -553.5},
+        "direction": 15,
+        "rail_layer": "elevated"
+      },
+      {
+        "entity_number": 66,
+        "name": "elevated-curved-rail-b",
+        "position": {"x": -427, "y": -553},
+        "direction": 8
+      },
+      {
+        "entity_number": 67,
+        "name": "half-diagonal-rail",
+        "position": {"x": -425, "y": -547},
+        "direction": 6
+      },
+      {"entity_number": 68, "name": "straight-rail", "position": {"x": -425, "y": -537}, "direction": 4},
+      {
+        "entity_number": 69,
+        "name": "elevated-straight-rail",
+        "position": {"x": -424, "y": -550},
+        "direction": 6
+      },
+      {"entity_number": 70, "name": "rail-support", "position": {"x": -423, "y": -549}, "direction": 6},
+      {"entity_number": 71, "name": "straight-rail", "position": {"x": -423, "y": -537}, "direction": 4},
+      {
+        "entity_number": 72,
+        "name": "elevated-straight-rail",
+        "position": {"x": -422, "y": -548},
+        "direction": 6
+      },
+      {
+        "entity_number": 73,
+        "name": "half-diagonal-rail",
+        "position": {"x": -421, "y": -545},
+        "direction": 6
+      },
+      {
+        "entity_number": 74,
+        "name": "elevated-straight-rail",
+        "position": {"x": -421, "y": -543},
+        "direction": 4
+      },
+      {"entity_number": 75, "name": "straight-rail", "position": {"x": -421, "y": -537}, "direction": 4},
+      {
+        "entity_number": 76,
+        "name": "rail-signal",
+        "position": {"x": -419.5, "y": -544.5},
+        "direction": 13,
+        "rail_layer": "elevated"
+      },
+      {
+        "entity_number": 77,
+        "name": "rail-signal",
+        "position": {"x": -419.5, "y": -541.5},
+        "direction": 12,
+        "rail_layer": "elevated"
+      },
+      {
+        "entity_number": 78,
+        "name": "elevated-curved-rail-b",
+        "position": {"x": -419, "y": -545},
+        "direction": 14
+      },
+      {
+        "entity_number": 79,
+        "name": "elevated-straight-rail",
+        "position": {"x": -419, "y": -543},
+        "direction": 4
+      },
+      {"entity_number": 80, "name": "straight-rail", "position": {"x": -419, "y": -537}, "direction": 4},
+      {
+        "entity_number": 81,
+        "name": "elevated-straight-rail",
+        "position": {"x": -417, "y": -543},
+        "direction": 4
+      },
+      {
+        "entity_number": 82,
+        "name": "half-diagonal-rail",
+        "position": {"x": -417, "y": -543},
+        "direction": 6
+      },
+      {"entity_number": 83, "name": "straight-rail", "position": {"x": -417, "y": -537}, "direction": 4},
+      {
+        "entity_number": 84,
+        "name": "elevated-straight-rail",
+        "position": {"x": -415, "y": -543},
+        "direction": 4
+      },
+      {"entity_number": 85, "name": "straight-rail", "position": {"x": -415, "y": -537}, "direction": 4},
+      {
+        "entity_number": 86,
+        "name": "elevated-curved-rail-a",
+        "position": {"x": -414, "y": -543},
+        "direction": 14
+      },
+      {
+        "entity_number": 87,
+        "name": "elevated-straight-rail",
+        "position": {"x": -413, "y": -543},
+        "direction": 4
+      },
+      {
+        "entity_number": 88,
+        "name": "half-diagonal-rail",
+        "position": {"x": -413, "y": -541},
+        "direction": 6
+      },
+      {"entity_number": 89, "name": "straight-rail", "position": {"x": -413, "y": -537}, "direction": 4},
+      {"entity_number": 90, "name": "straight-rail", "position": {"x": -411, "y": -537}, "direction": 4},
+      {"entity_number": 91, "name": "rail-signal", "position": {"x": -410.5, "y": -538.5}, "direction": 4},
+      {
+        "entity_number": 92,
+        "name": "half-diagonal-rail",
+        "position": {"x": -409, "y": -539},
+        "direction": 6
+      },
+      {"entity_number": 93, "name": "straight-rail", "position": {"x": -409, "y": -537}, "direction": 4},
+      {"entity_number": 94, "name": "rail-signal", "position": {"x": -407.5, "y": -539.5}, "direction": 5},
+      {"entity_number": 95, "name": "straight-rail", "position": {"x": -407, "y": -537}, "direction": 4},
+      {"entity_number": 96, "name": "straight-rail", "position": {"x": -405, "y": -537}, "direction": 4},
+      {"entity_number": 97, "name": "rail-ramp", "position": {"x": -404, "y": -543}, "direction": 12},
+      {"entity_number": 98, "name": "curved-rail-a", "position": {"x": -404, "y": -537}, "direction": 14},
+      {"entity_number": 99, "name": "big-electric-pole", "position": {"x": -403, "y": -540}},
+      {"entity_number": 100, "name": "straight-rail", "position": {"x": -403, "y": -537}, "direction": 4},
+      {"entity_number": 101, "name": "straight-rail", "position": {"x": -401, "y": -537}, "direction": 4},
+      {"entity_number": 102, "name": "straight-rail", "position": {"x": -399, "y": -537}, "direction": 4},
+      {"entity_number": 103, "name": "straight-rail", "position": {"x": -397, "y": -537}, "direction": 4}
+    ],
+    "wires": [[10, 5, 52, 5], [52, 5, 99, 5], [52, 5, 56, 5]],
+    "item": "blueprint",
+    "label": "T junction, LHD PB",
+    "version": 562954249961473
+  },
+  "index": 3
+}

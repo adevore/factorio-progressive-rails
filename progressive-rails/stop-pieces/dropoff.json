@@ -1,0 +1,42 @@
+{
+  "blueprint": {
+    "icons": [
+      {"signal": {"name": "train-stop"}, "index": 1},
+      {"signal": {"type": "virtual", "name": "signal-input"}, "index": 2}
+    ],
+    "entities": [
+      {"entity_number": 1, "name": "medium-electric-pole", "position": {"x": 262.5, "y": -321.5}},
+      {"entity_number": 2, "name": "straight-rail", "position": {"x": 263, "y": -319}, "direction": 4},
+      {"entity_number": 3, "name": "straight-rail", "position": {"x": 265, "y": -319}, "direction": 4},
+      {"entity_number": 4, "name": "straight-rail", "position": {"x": 267, "y": -319}, "direction": 4},
+      {"entity_number": 5, "name": "straight-rail", "position": {"x": 269, "y": -319}, "direction": 4},
+      {
+        "entity_number": 6,
+        "name": "train-stop",
+        "position": {"x": 269, "y": -317},
+        "direction": 4,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {"first_signal": {"type": "virtual", "name": "signal-check"}, "constant": 4, "comparator": "="},
+          "train_stopped_signal": {"type": "virtual", "name": "signal-T"}
+        },
+        "station": "[item=parameter-0]Dropoff",
+        "manual_trains_limit": 1
+      }
+    ],
+    "wires": [[1, 2, 6, 2]],
+    "parameters": [
+      {
+        "type": "id",
+        "name": "Item",
+        "id": "parameter-0",
+        "quality-condition": {"quality": "normal", "comparator": "="}
+      },
+      {"type": "number", "number": "4", "name": "Train Length"}
+    ],
+    "item": "blueprint",
+    "label": "Dropoff",
+    "version": 562954249961473
+  },
+  "index": 4
+}

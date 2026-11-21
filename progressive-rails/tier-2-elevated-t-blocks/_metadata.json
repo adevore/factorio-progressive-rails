@@ -1,0 +1,13 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Tier 2 - Elevated T Blocks",
+    "icons": [
+      {"signal": {"name": "rail-ramp"}, "index": 1},
+      {"signal": {"type": "virtual", "name": "signal-T"}, "index": 2}
+    ],
+    "active_index": 0,
+    "version": 562954249961473
+  },
+  "index": 2
+}

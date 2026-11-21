@@ -1,0 +1,10 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Deconstruction",
+    "icons": [{"signal": {"name": "deconstruction-planner"}, "index": 1}],
+    "active_index": 4,
+    "version": 562954249961473
+  },
+  "index": 6
+}

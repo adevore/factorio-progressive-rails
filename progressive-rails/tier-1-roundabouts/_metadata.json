@@ -1,0 +1,10 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Tier 1 - Roundabouts",
+    "icons": [{"signal": {"type": "virtual", "name": "shape-circle"}, "index": 1}],
+    "active_index": 0,
+    "version": 562954249961473
+  },
+  "index": 0
+}

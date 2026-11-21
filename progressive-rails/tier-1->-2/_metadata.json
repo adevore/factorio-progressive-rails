@@ -1,0 +1,14 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "Tier 1 -> 2",
+    "icons": [
+      {"signal": {"type": "virtual", "name": "signal-1"}, "index": 1},
+      {"signal": {"type": "virtual", "name": "right-arrow"}, "index": 2},
+      {"signal": {"type": "virtual", "name": "signal-2"}, "index": 3}
+    ],
+    "active_index": 3,
+    "version": 562954249961473
+  },
+  "index": 1
+}

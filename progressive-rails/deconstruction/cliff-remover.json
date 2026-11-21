@@ -1,0 +1,12 @@
+{
+  "deconstruction_planner": {
+    "settings": {
+      "entity_filters": [{"name": "cliff", "quality": "normal", "comparator": "=", "index": 0}],
+      "tile_selection_mode": 2
+    },
+    "item": "deconstruction-planner",
+    "label": "Cliff Remover",
+    "version": 562954249961473
+  },
+  "index": 4
+}

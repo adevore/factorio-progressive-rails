@@ -1,0 +1,82 @@
+{
+  "blueprint": {
+    "icons": [{"signal": {"name": "rail"}, "index": 1}, {"signal": {"name": "train-stop"}, "index": 2}],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "train-stop",
+        "position": {"x": -1259, "y": -471},
+        "direction": 8,
+        "station": "TBD"
+      },
+      {"entity_number": 2, "name": "curved-rail-a", "position": {"x": -1257, "y": -522}, "direction": 2},
+      {"entity_number": 3, "name": "straight-rail", "position": {"x": -1257, "y": -519}},
+      {"entity_number": 4, "name": "straight-rail", "position": {"x": -1257, "y": -517}},
+      {"entity_number": 5, "name": "straight-rail", "position": {"x": -1257, "y": -515}},
+      {"entity_number": 6, "name": "straight-rail", "position": {"x": -1257, "y": -513}},
+      {"entity_number": 7, "name": "straight-rail", "position": {"x": -1257, "y": -511}},
+      {"entity_number": 8, "name": "straight-rail", "position": {"x": -1257, "y": -509}},
+      {"entity_number": 9, "name": "straight-rail", "position": {"x": -1257, "y": -507}},
+      {"entity_number": 10, "name": "straight-rail", "position": {"x": -1257, "y": -505}},
+      {"entity_number": 11, "name": "straight-rail", "position": {"x": -1257, "y": -503}},
+      {"entity_number": 12, "name": "straight-rail", "position": {"x": -1257, "y": -501}},
+      {"entity_number": 13, "name": "straight-rail", "position": {"x": -1257, "y": -499}},
+      {"entity_number": 14, "name": "straight-rail", "position": {"x": -1257, "y": -497}},
+      {"entity_number": 15, "name": "straight-rail", "position": {"x": -1257, "y": -495}},
+      {"entity_number": 16, "name": "straight-rail", "position": {"x": -1257, "y": -493}},
+      {"entity_number": 17, "name": "straight-rail", "position": {"x": -1257, "y": -491}},
+      {"entity_number": 18, "name": "straight-rail", "position": {"x": -1257, "y": -489}},
+      {"entity_number": 19, "name": "straight-rail", "position": {"x": -1257, "y": -487}},
+      {"entity_number": 20, "name": "straight-rail", "position": {"x": -1257, "y": -485}},
+      {"entity_number": 21, "name": "straight-rail", "position": {"x": -1257, "y": -483}},
+      {"entity_number": 22, "name": "straight-rail", "position": {"x": -1257, "y": -481}},
+      {"entity_number": 23, "name": "straight-rail", "position": {"x": -1257, "y": -479}},
+      {"entity_number": 24, "name": "straight-rail", "position": {"x": -1257, "y": -477}},
+      {"entity_number": 25, "name": "straight-rail", "position": {"x": -1257, "y": -475}},
+      {"entity_number": 26, "name": "straight-rail", "position": {"x": -1257, "y": -473}},
+      {"entity_number": 27, "name": "straight-rail", "position": {"x": -1257, "y": -471}},
+      {"entity_number": 28, "name": "straight-rail", "position": {"x": -1257, "y": -469}},
+      {"entity_number": 29, "name": "straight-rail", "position": {"x": -1257, "y": -467}},
+      {"entity_number": 30, "name": "straight-rail", "position": {"x": -1257, "y": -465}},
+      {"entity_number": 31, "name": "straight-rail", "position": {"x": -1257, "y": -463}},
+      {"entity_number": 32, "name": "straight-rail", "position": {"x": -1257, "y": -461}},
+      {"entity_number": 33, "name": "straight-rail", "position": {"x": -1257, "y": -459}},
+      {"entity_number": 34, "name": "straight-rail", "position": {"x": -1257, "y": -457}},
+      {"entity_number": 35, "name": "curved-rail-a", "position": {"x": -1257, "y": -454}, "direction": 8},
+      {"entity_number": 36, "name": "curved-rail-b", "position": {"x": -1255, "y": -527}, "direction": 2},
+      {"entity_number": 37, "name": "curved-rail-b", "position": {"x": -1255, "y": -449}, "direction": 8},
+      {
+        "entity_number": 38,
+        "name": "rail-signal",
+        "position": {"x": -1251.5, "y": -531.5},
+        "direction": 3
+      },
+      {
+        "entity_number": 39,
+        "name": "rail-signal",
+        "position": {"x": -1251.5, "y": -444.5},
+        "direction": 13
+      },
+      {"entity_number": 40, "name": "curved-rail-b", "position": {"x": -1251, "y": -531}, "direction": 12},
+      {"entity_number": 41, "name": "curved-rail-b", "position": {"x": -1251, "y": -445}, "direction": 14},
+      {
+        "entity_number": 42,
+        "name": "half-diagonal-rail",
+        "position": {"x": -1247, "y": -533},
+        "direction": 4
+      },
+      {
+        "entity_number": 43,
+        "name": "half-diagonal-rail",
+        "position": {"x": -1247, "y": -443},
+        "direction": 6
+      },
+      {"entity_number": 44, "name": "curved-rail-a", "position": {"x": -1242, "y": -535}, "direction": 12},
+      {"entity_number": 45, "name": "curved-rail-a", "position": {"x": -1242, "y": -441}, "direction": 14}
+    ],
+    "item": "blueprint",
+    "label": "Rail Yard Stop",
+    "version": 562954249961473
+  },
+  "index": 7
+}
