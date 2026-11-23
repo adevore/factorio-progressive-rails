@@ -38,17 +38,35 @@ Progressive Rails is a city block rails blueprint book for Factorio. It tackles 
 
 ## Upgrading
 
-[/images/initial-tier1.png]
-
 Let's say you have this initial Tier 1 layout, with the block that you want to upgrade highlighted.
 
-The simplest upgrade uses the transitional full blueprint, which has roundabouts on all corners.
+![Tier 1 layout with square blocks](/images/initial-tier1.png)
 
-A more disruptive upgrade disconnects 
+The simplest upgrade uses the transitional full blueprint, which has roundabouts on all corners. Start by removing the middle to allow for merging two adjacent city blocks:
+
+![Two tier 1 city blocks with their dividing edge removed](/images/remove-middle.png)
+
+Then use the blueprint "T1 -> T2 CB Mixed All PB"
+
+![Full Mixed blueprint in an otherwise unchanged layout, with roundabouts integrated in the surrounding blocks](/images/mixed-all.png)
+
+A more disruptive upgrade turns the roundabouts in each corner into T intersections, disconnecting some edges.
+
+![Tier 1 city blocks merged, with surrounding intersections removed](/images/maximal-removal.png)
+
+Then use "Full CB T2 PB" in the opened area:
+
+![Tier 2 city blocks, placed to merge the two tier 1 city blocks. Some surrounding intersections will connect when placed.](/images/replaced-tier-2)
+
+Fully tier 2 city blocks will have a brick-like structure, with blocks at offsets:
+
+![Fully placed Tier 2 city blocks, placed staggered like bricks.](/images/full-tier-2.png)
+
+However, it may make sense to have some low traffic areas of a base perpetually kept as tier 1.
 
 ## Status
 
-* The basic Tier 1 and Tier 2 city blocks should be done.
+* The basic Tier 1 and Tier 2 city blocks should be done
 * Some upgrade blocks are available, but are incomplete
 * Defense perimeters are available, but incomplete
 * Basic loading and unloading is complete, but individual levels of inserters and quality levels of pumps are needed
