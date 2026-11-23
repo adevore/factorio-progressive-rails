@@ -2,9 +2,10 @@
   "deconstruction_planner": {
     "settings": {
       "entity_filters": [
-        {"name": "laser-turret", "quality": "normal", "comparator": "=", "index": 0},
-        {"name": "stone-wall", "quality": "normal", "comparator": "=", "index": 1},
-        {"name": "medium-electric-pole", "quality": "normal", "comparator": "=", "index": 2}
+        {"name": "laser-turret", "index": 0},
+        {"name": "tesla-turret", "index": 1},
+        {"name": "stone-wall", "quality": "normal", "comparator": "=", "index": 2},
+        {"name": "medium-electric-pole", "quality": "normal", "comparator": "=", "index": 3}
       ],
       "tile_selection_mode": 2,
       "icons": [
