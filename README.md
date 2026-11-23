@@ -56,7 +56,7 @@ A more disruptive upgrade turns the roundabouts in each corner into T intersecti
 
 Then use "Full CB T2 PB" in the opened area:
 
-![Tier 2 city blocks, placed to merge the two tier 1 city blocks. Some surrounding intersections will connect when placed.](/images/replaced-tier-2)
+![Tier 2 city blocks, placed to merge the two tier 1 city blocks. Some surrounding intersections will connect when placed.](/images/replaced-tier-2.png)
 
 Fully tier 2 city blocks will have a brick-like structure, with blocks at offsets:
 
